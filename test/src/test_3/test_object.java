@@ -30,6 +30,11 @@ public class test_object {
 
 				number = scan.nextInt();
 				
+				if(key == number) {
+					System.out.println("認証成功");
+					break;
+				}
+				
 			} catch (InputMismatchException e) {
 
 				//InputMismatchExceptionエラーが発生したら以下の処理を行う
